@@ -17,6 +17,7 @@ export const ta: Dictionary = {
     reports: 'அறிக்கைகள்',
     settings: 'அமைப்புகள்',
     mainNavigation: 'முதன்மை வழிசெலுத்தல்',
+    marketIntelligence: 'சந்தை நுண்ணறிவு',
   },
   common: {
     season: 'பருவம்',
