@@ -15,6 +15,7 @@ export const en = {
     reports: 'Reports',
     settings: 'Settings',
     mainNavigation: 'Main navigation',
+    marketIntelligence: 'Market intelligence',
   },
   common: {
     season: 'Season',

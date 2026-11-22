@@ -1,4 +1,14 @@
-import { ChartColumn, HandCoins, LayoutDashboard, Receipt, Settings, Sprout, type LucideIcon } from 'lucide-react'
+
+import {
+  ChartColumn,
+  HandCoins,
+  LayoutDashboard,
+  Receipt,
+  Settings,
+  Sprout,
+  TrendingUp,
+  type LucideIcon,
+} from 'lucide-react'
 import type { TranslationKey } from '@/lib/i18n'
 
 export interface NavItem {
@@ -16,6 +26,12 @@ export const NAV_ITEMS: NavItem[] = [
   { href: '/expenses', label: 'nav.expenses', icon: Receipt, mobile: true },
   { href: '/sales', label: 'nav.sales', shortLabel: 'nav.salesShort', icon: HandCoins, mobile: true },
   { href: '/reports', label: 'nav.reports', icon: ChartColumn, mobile: true },
+  {
+    href: '/market-intelligence',
+    label: 'nav.marketIntelligence',
+    icon: TrendingUp,
+    mobile: false,
+  },
   { href: '/settings', label: 'nav.settings', icon: Settings, mobile: false },
 ]
 
